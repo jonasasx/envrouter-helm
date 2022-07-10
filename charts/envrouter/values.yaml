@@ -73,11 +73,11 @@ ingress:
 # -- Resource limits and requests for the controller
 resources:
   limits:
-   cpu: 100m
-   memory: 128Mi
+    cpu: 100m
+    memory: 128Mi
   requests:
-   cpu: 100m
-   memory: 128Mi
+    cpu: 100m
+    memory: 128Mi
 
 # -- [Node selector]
 nodeSelector: {}

@@ -1,14 +1,25 @@
 # envrouter
 
-![Version: 0.2.8](https://img.shields.io/badge/Version-0.2.8-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.2.8](https://img.shields.io/badge/AppVersion-v0.2.8-informational?style=flat-square)
-
-Env Router Helm chart for Kubernetes
+![Version: 0.3.1](https://img.shields.io/badge/Version-0.3.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.3.0](https://img.shields.io/badge/AppVersion-v0.3.0-informational?style=flat-square)
+Envrouter Helm chart for Kubernetes
 
 ## Maintainers
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Ivan Volynkin | <jonasasx@gmail.com> | <ivolynkin.ru> |
+| jonasasx | <jonasasx@gmail.com> | <ivolynkin.ru> |
+## Installing the Chart
+
+To install the chart with the release name `my-release`:
+
+```console
+$ helm repo add envrouter https://jonasasx.github.io/envrouter-helm
+"envrouter" has been added to your repositories
+
+$ helm install my-release envrouter/envrouter
+NAME: my-release
+...
+```
 
 ## Values
 
