@@ -31,6 +31,17 @@ jobs:
             echo "::set-output name=changed::true"
           fi
 
+      - name: Run version check
+        id: version-check
+        run: |
+          exists=$(grep "version: \"$(cat VERSION)\"" charts/envrouter/Chart.yaml)
+          if [[ exists != '' ]]; then
+            echo -e '\033[0;32mVersion is ok\033[0m ✔'
+          else
+            echo -e '\033[0;32mVersions `VERSION` and `charts/envrouter/Chart.yaml` are different\033[0m ✔'
+            exit 1
+          fi
+
       - name: Run chart-testing (lint)
         run: ct lint --target-branch ${{ github.event.repository.default_branch }}
 
