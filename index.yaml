@@ -3,6 +3,20 @@ entries:
   envrouter:
   - apiVersion: v2
     appVersion: v0.3.0
+    created: "2022-07-19T20:19:08.715432731Z"
+    description: Envrouter Helm chart for Kubernetes
+    digest: 4d3eb6de92324ba299dc49d98089275b48ab8de1acbba2ba9b2a684b951c521a
+    maintainers:
+    - email: jonasasx@gmail.com
+      name: jonasasx
+      url: ivolynkin.ru
+    name: envrouter
+    type: application
+    urls:
+    - https://github.com/jonasasx/envrouter-helm/releases/download/envrouter-0.3.3/envrouter-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
+    appVersion: v0.3.0
     created: "2022-07-19T20:12:29.526794649Z"
     description: Envrouter Helm chart for Kubernetes
     digest: 88361405ee5fe76b194e8e2589931d6050401cc74affa018b8482f3d9cadfe19
@@ -29,4 +43,4 @@ entries:
     urls:
     - https://github.com/jonasasx/envrouter-helm/releases/download/envrouter-0.3.1/envrouter-0.3.1.tgz
     version: 0.3.1
-generated: "2022-07-19T20:12:29.526815749Z"
+generated: "2022-07-19T20:19:08.715452331Z"
