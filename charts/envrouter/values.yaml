@@ -3,11 +3,11 @@ replicaCount: 1
 
 image:
   # -- Repository to use for extensions image
-  repository: jonasasx/envrouter
+  repository: ghcr.io/jonasasx/envrouter
   # -- Image pull policy for extensions
   pullPolicy: IfNotPresent
   # -- Tag to use for extensions image
-  tag: "v0.2.8"
+  tag: "v0.2.16"
 
 # -- Secrets with credentials to pull images from a private registry
 imagePullSecrets: []
